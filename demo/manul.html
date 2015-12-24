@@ -1,0 +1,579 @@
+<!DOCTYPE HTML>
+<html lang="en" >
+    
+    <head>
+        
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>透明通道 | ﻿浪涛SDK使用说明手册  </title>
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 2.6.6">
+        
+        
+        <meta name="HandheldFriendly" content="true"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    <link rel="stylesheet" href="../gitbook/style.css">
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-highlight/website.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-search/search.css">
+        
+    
+        
+        <link rel="stylesheet" href="../gitbook/plugins/gitbook-plugin-fontsettings/website.css">
+        
+    
+    
+
+        
+    
+    
+    <link rel="next" href="../demo/talk.html" />
+    
+    
+    <link rel="prev" href="../demo/search.html" />
+    
+
+        
+    </head>
+    <body>
+        
+        
+    <div class="book"
+        data-level="3.3"
+        data-chapter-title="透明通道"
+        data-filepath="demo/manul.md"
+        data-basepath=".."
+        data-revision="Thu Dec 24 2015 16:16:00 GMT+0800 (中国标准时间)"
+        data-innerlanguage="">
+    
+
+<div class="book-summary">
+    <nav role="navigation">
+        <ul class="summary">
+            
+            
+            
+            
+
+            
+
+            
+    
+        <li class="chapter " data-level="0" data-path="index.html">
+            
+                
+                    <a href="../index.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                        Introduction
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="1" data-path="guide.html">
+            
+                
+                    <a href="../guide.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>1.</b>
+                        
+                        编程导引
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2" >
+            
+            <span><b>2.</b> 接口定义</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1" data-path="class/DataSourceListener.html">
+            
+                
+                    <a href="../class/DataSourceListener.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.1.</b>
+                        
+                        DataSourceListener
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="class/DeviceStatusChangedListener.html">
+            
+                
+                    <a href="../class/DeviceStatusChangedListener.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.2.</b>
+                        
+                        DeviceStatusChangedListener
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="class/GlnkChannel.html">
+            
+                
+                    <a href="../class/GlnkChannel.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.3.</b>
+                        
+                        GlnkChannel
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.4" data-path="class/GlnkClient.html">
+            
+                
+                    <a href="../class/GlnkClient.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.4.</b>
+                        
+                        GlnkClient
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.5" data-path="class/GlnkClientMgr.html">
+            
+                
+                    <a href="../class/GlnkClientMgr.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.5.</b>
+                        
+                        GlnkClientMgr
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.6" data-path="class/LanSearchIndep.html">
+            
+                
+                    <a href="../class/LanSearchIndep.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.6.</b>
+                        
+                        LanSearchIndep
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.7" data-path="class/OnLanSearchListener.html">
+            
+                
+                    <a href="../class/OnLanSearchListener.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.7.</b>
+                        
+                        OnLanSearchListener
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="2.8" data-path="class/unit.html">
+            
+                
+                    <a href="../class/unit.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>2.8.</b>
+                        
+                        结构定义
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3" >
+            
+            <span><b>3.</b> Demo</span>
+            
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1" data-path="demo/realplay.html">
+            
+                
+                    <a href="../demo/realplay.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.1.</b>
+                        
+                        实时预览&amp;云台控制
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="demo/search.html">
+            
+                
+                    <a href="../demo/search.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.2.</b>
+                        
+                        设备搜索
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.3" data-path="demo/manul.html">
+            
+                
+                    <a href="../demo/manul.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.3.</b>
+                        
+                        透明通道
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="demo/talk.html">
+            
+                
+                    <a href="../demo/talk.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.4.</b>
+                        
+                        实时对讲
+                    </a>
+            
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="demo/playback.html">
+            
+                
+                    <a href="../demo/playback.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>3.5.</b>
+                        
+                        录像查找&amp;录像回放
+                    </a>
+            
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="changelog.html">
+            
+                
+                    <a href="../changelog.html">
+                
+                        <i class="fa fa-check"></i>
+                        
+                            <b>4.</b>
+                        
+                        更新记录
+                    </a>
+            
+            
+        </li>
+    
+
+
+            
+            <li class="divider"></li>
+            <li>
+                <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+                    Published with GitBook
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="book-header" role="navigation">
+    <!-- Actions Left -->
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../" >﻿浪涛SDK使用说明手册  </a>
+    </h1>
+</div>
+
+            <div class="page-wrapper" tabindex="-1" role="main">
+                <div class="page-inner">
+                
+                
+                    <section class="normal" id="section-">
+                    
+                        <h1 id="&#xFEFF;&#x900F;&#x660E;&#x901A;&#x9053;">&#xFEFF;&#x900F;&#x660E;&#x901A;&#x9053;</h1>
+<hr>
+<p>&#x6D41;&#x7A0B;&#x56FE;&#x5982;&#x4E0B;</p>
+<p><img src="../picture/manul.png" alt="pic"></p>
+<hr>
+<h2 id="code">Code</h2>
+<pre><code class="lang-C"><span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;GlnkClientMgr.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;glnk_client.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;DataSourceListener2.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;DeviceStatusChangedListener.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;glnk_client_GlnkChannel.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;glnk_client_LanSearchIndep.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;glnk_utils.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;OnLanSearchListener.h&quot;</span></span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;glnk_errno.h&quot;</span></span>
+
+<span class="hljs-preprocessor">#<span class="hljs-keyword">ifdef</span> WIN32</span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">pragma</span> comment(lib, <span class="hljs-string">&quot;glnkclient.lib&quot;</span>)</span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">pragma</span> comment(lib, <span class="hljs-string">&quot;libglnkcclient.a&quot;</span>)</span>
+<span class="hljs-preprocessor">#<span class="hljs-keyword">endif</span></span>
+
+<span class="hljs-keyword">class</span> DeviceStatus :<span class="hljs-keyword">public</span> DeviceStatusChangedListener
+{
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onChanged</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-keyword">char</span>* gid, <span class="hljs-keyword">int</span> status)</span>
+    </span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]%s &#x72B6;&#x6001;&#x7801;&#x4E3A;&#xFF1A;%d\n&quot;</span>, gid, status);
+    }
+};
+
+
+<span class="hljs-keyword">class</span> DataSource : <span class="hljs-keyword">public</span> DataSourceListener
+{
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onConnecting</span><span class="hljs-params">()</span></span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x5F00;&#x59CB;&#x8FDE;&#x63A5;&#x8BBE;&#x5907;\n&quot;</span>);
+    }
+
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onConnected</span><span class="hljs-params">(<span class="hljs-keyword">int</span> mode, <span class="hljs-keyword">const</span> <span class="hljs-keyword">char</span>* ip, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">short</span> port)</span></span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x8FDE;&#x63A5;&#x5B8C;&#x6210;&#xFF0C;&#x8FDE;&#x63A5;&#x6A21;&#x5F0F;&#x4E3A;&#xFF1A;%d , &#x8BBE;&#x5907;ip&#xFF1A;%s, &#x8BBE;&#x5907;&#x7AEF;&#x53E3;&#xFF1A; %d \n&quot;</span>, mode, ip, port);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onModeChanged</span><span class="hljs-params">(<span class="hljs-keyword">int</span> mode, <span class="hljs-keyword">const</span> <span class="hljs-keyword">char</span>* ip, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">short</span> port)</span></span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x8FDE;&#x63A5;&#x6A21;&#x5F0F;&#x66F4;&#x6539;&#xFF0C;&#x8FDE;&#x63A5;&#x6A21;&#x5F0F;&#x4E3A;&#xFF1A;%d , &#x8BBE;&#x5907;ip&#xFF1A;%s, &#x8BBE;&#x5907;&#x7AEF;&#x53E3;&#xFF1A; %d \n&quot;</span>, mode, ip, port);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onDisconnected</span><span class="hljs-params">(<span class="hljs-keyword">int</span> errcode)</span> </span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x8FDE;&#x63A5;&#x88AB;&#x975E;&#x4E3B;&#x52A8;&#x65AD;&#x5F00;&#xFF0C;&#x65AD;&#x5F00;&#x7801;:%d\n&quot;</span>, errcode);
+    }
+
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onReConnecting</span><span class="hljs-params">()</span> </span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x6B63;&#x5728;&#x91CD;&#x65B0;&#x8FDE;&#x63A5;\n&quot;</span>);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onAuthorized</span><span class="hljs-params">(<span class="hljs-keyword">int</span> result)</span></span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x767B;&#x5F55;&#x8BBE;&#x5907;&#x53CD;&#x9988;&#x7801;&#xFF1A;%d\n&quot;</span>, result);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onDataRate</span><span class="hljs-params">(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> bytesPersecond)</span> </span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x6BCF;&#x79D2;&#x6D41;&#x91CF;&#x4E3A;:%d\n&quot;</span>, bytesPersecond);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onAVStreamFormat</span><span class="hljs-params">(<span class="hljs-keyword">void</span> *data, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> length)</span> </span>{
+
+        GlnkStreamFormat format = { <span class="hljs-number">0</span> };
+
+        <span class="hljs-keyword">int</span> result = getGlnkStreamFormat(&amp;format, data, length);
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x6B64;&#x5904;&#x83B7;&#x53D6;&#x97F3;&#x89C6;&#x9891;&#x4FE1;&#x606F;\n&quot;</span>);
+    }
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onIOCtrlByManu</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *data, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">short</span> length)</span></span>{
+        <span class="hljs-built_in">printf</span>(<span class="hljs-string">&quot;[&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;]&#x8BBE;&#x5907;&#x901A;&#x8FC7;&#x900F;&#x660E;&#x901A;&#x9053;&#x8FD4;&#x56DE;&#x7684;&#x6570;&#x636E;\n&quot;</span>);
+    }
+
+
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onVideoData</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *data, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> frameIndex, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> timestamp, <span class="hljs-keyword">int</span> isIFrame)</span> </span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onAudioData</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *data, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> timestamp)</span> </span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onRemoteFileSearchResp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> result, <span class="hljs-keyword">int</span> count)</span></span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onRemoteFileSearchItem</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-keyword">char</span> *framename, <span class="hljs-keyword">int</span> recordType,
+        <span class="hljs-keyword">int</span> startYear, <span class="hljs-keyword">int</span> startMonth, <span class="hljs-keyword">int</span> startDay, <span class="hljs-keyword">int</span> startHour, <span class="hljs-keyword">int</span> startMinute, <span class="hljs-keyword">int</span> startSecond, <span class="hljs-keyword">int</span> startMs,
+        <span class="hljs-keyword">int</span> endYear, <span class="hljs-keyword">int</span> endMonth, <span class="hljs-keyword">int</span> endDay, <span class="hljs-keyword">int</span> endHour, <span class="hljs-keyword">int</span> endMinute, <span class="hljs-keyword">int</span> endSecond, <span class="hljs-keyword">int</span> endMs)</span> </span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onRemoteFileResp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> version, <span class="hljs-keyword">int</span> result, <span class="hljs-keyword">int</span> fileDuration)</span> </span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onRemoteFileEOF</span><span class="hljs-params">()</span></span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onRemoteFileCtrlResp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> result, <span class="hljs-keyword">int</span> ctrlCmd)</span> </span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onTalkingResp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> result, <span class="hljs-keyword">int</span> audiofmt, <span class="hljs-keyword">int</span> audioChannels, <span class="hljs-keyword">int</span> audioSampleRate, <span class="hljs-keyword">int</span> audioBitsPerSample)</span></span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onKeepliveResp</span><span class="hljs-params">(<span class="hljs-keyword">int</span> result)</span></span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onVideoDataManu</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *data, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *frameInfo, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> infoLength)</span> </span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onAudioDataManu</span><span class="hljs-params">(<span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *data, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> length, <span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *frameInfo, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">int</span> infoLength)</span> </span>{}
+    <span class="hljs-function"><span class="hljs-keyword">virtual</span> <span class="hljs-keyword">void</span> <span class="hljs-title">onIOCtrl</span><span class="hljs-params">(<span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">short</span> type, <span class="hljs-keyword">const</span> <span class="hljs-keyword">void</span> *data, <span class="hljs-keyword">unsigned</span> <span class="hljs-keyword">short</span> length)</span> </span>{}
+
+};
+
+
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span>
+</span>{
+    <span class="hljs-keyword">const</span> <span class="hljs-keyword">char</span>* gid[] = { <span class="hljs-string">&quot;bl06fb5c4x&quot;</span>, <span class="hljs-string">&quot;tt0xx244f8&quot;</span> };
+    GlnkClient* client = <span class="hljs-literal">NULL</span>;
+    GlnkChannel* channel = <span class="hljs-literal">NULL</span>;
+
+    DeviceStatus* l = <span class="hljs-keyword">new</span> DeviceStatus;
+    DataSource* ds = <span class="hljs-keyword">new</span> DataSource;
+
+    GlnkClientMgr* clientMgr = GlnkClientMgr::getInstance();
+    <span class="hljs-keyword">if</span> (clientMgr)
+    {
+        client = clientMgr-&gt;getGlnkClient();
+        <span class="hljs-keyword">if</span> (client)
+        {
+            <span class="hljs-keyword">if</span> (-<span class="hljs-number">1</span> == client-&gt;init(<span class="hljs-string">&quot;Demo&quot;</span>, <span class="hljs-string">&quot;20150914&quot;</span>, <span class="hljs-string">&quot;1234567890&quot;</span>, <span class="hljs-number">1</span>, <span class="hljs-number">1</span>))<span class="hljs-comment">//&#x8BBE;&#x7F6E;&#x73AF;&#x5883;</span>
+                <span class="hljs-keyword">goto</span> err;
+
+            <span class="hljs-keyword">if</span> (-<span class="hljs-number">1</span> == client-&gt;setOnDeviceStatusChangedListener(l))
+                <span class="hljs-keyword">goto</span> err;
+
+            <span class="hljs-keyword">if</span> (-<span class="hljs-number">1</span> == client-&gt;setStatusAutoUpdate(<span class="hljs-number">1</span>))
+                <span class="hljs-keyword">goto</span> err;
+
+            <span class="hljs-keyword">if</span> (-<span class="hljs-number">1</span> == client-&gt;start())
+                <span class="hljs-keyword">goto</span> err;
+
+            <span class="hljs-keyword">int</span> re = <span class="hljs-number">0</span>;
+            <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">2</span>; i++)
+                re = client-&gt;addGID(gid[i]);
+
+
+
+            channel = GlnkChannel::Create(client, ds);
+            <span class="hljs-keyword">if</span> (channel)
+            {
+                re = channel-&gt;setMetaData(<span class="hljs-string">&quot;bl06fb5c4x&quot;</span>, <span class="hljs-string">&quot;admin&quot;</span>, <span class="hljs-string">&quot;admin&quot;</span>, <span class="hljs-number">0</span>, <span class="hljs-number">3</span>, <span class="hljs-number">2</span>);
+                re = channel-&gt;start();
+
+                getchar();
+
+                <span class="hljs-comment">//re = channel-&gt;sendData(data, size);//&#x53D1;&#x9001;&#x900F;&#x660E;&#x901A;&#x9053;&#x6570;&#x636E;</span>
+
+                getchar();
+            }
+        }
+    }
+
+err:
+    <span class="hljs-keyword">if</span> (channel)
+    {
+        channel-&gt;stop();
+        channel-&gt;release();
+    }
+
+    <span class="hljs-keyword">if</span> (client)
+        client-&gt;release();
+    <span class="hljs-keyword">if</span> (clientMgr)
+        clientMgr-&gt;release();
+
+    <span class="hljs-keyword">delete</span> l;
+    <span class="hljs-keyword">delete</span> ds;
+
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+}
+</code></pre>
+
+                    
+                    </section>
+                
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../demo/search.html" class="navigation navigation-prev " aria-label="Previous page: 设备搜索"><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../demo/talk.html" class="navigation navigation-next " aria-label="Next page: 实时对讲"><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+<script src="../gitbook/app.js"></script>
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/lunr.min.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-search/search.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-sharing/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-fontsettings/buttons.js"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-livereload/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {"highlight":{},"search":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"livereload":{}};
+    gitbook.start(config);
+});
+</script>
+
+        
+    </body>
+    
+</html>
